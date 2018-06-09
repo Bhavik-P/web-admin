@@ -1,0 +1,783 @@
+.position-center-center h3{margin: 8px 0px; font-size: 20px; color: #fff; font-weight:100;}
+.position-center-center p{margin: 8px 0px; font-size: 14px; color: #000;}
+.section{width: 60%; float: left;}
+
+.sec_right{width: 40%; float: right; text-align: right;}
+.sec_right h5{color: #000; margin-top: 30px; font-weight: normal; font-size: 16px; background: none; border: 1px solid #ccc !important; width: auto; float: right; padding: 8px 20px;}
+.project_detail{width:100%; background:none; padding:15px 0px;}
+.detail_left{width:100%; background:none; border:1px solid #737373; padding: 15px; float:left;}
+.detail_left h2{margin: 8px 0px; font-size: 20px; color: #333; font-weight:100; margin-bottom:0px;}
+.detail_left h5{font-size: 13px; font-weight: 100; margin: 0; color: #000; word-wrap: break-word;}
+.detail_left p{margin: 8px 0px; font-size: 14px; color: #333;}
+.detail_left h4{margin: 8px 0px; font-size: 17px; color: #333; font-weight:100;}
+.detail_left ul{margin:0px auto; padding:0px; list-style:none;}
+.detail_left li span{font-size:12px;}
+.invited_translator{width:100%; background:none; border:1px solid #737373; padding:0px;}
+.invited_translator section{}
+.invited_translator h2{margin: 0px 0px; padding: 10px 10px; font-size: 20px; color: #333; font-weight: 100; background: #eee; margin-bottom: 10px;}
+.invited_translator img{width:100%; display:block; height:100%;}
+.invited_translator p{margin: 0px 0px; font-size: 15px; color: #333; font-weight:100;}
+.invited_translator h5{color: #737373; font-weight: normal; font-size: 11px; background: none; border: 1px solid #737373 !important; width: auto; float: right; padding: 5px 0px; margin:0px; width: 75px; text-align: center;}
+
+.invited_translator ul{margin:0px auto; padding:15px 0px; list-style:none; text-align:center;}
+.invited_translator li{float:none; display:inline-block;}
+.invited_translator li button{font-size: 12px; text-align: center; background: #0099ff; color: #fff; border: none; padding: 5px 15px;}
+
+table > thead > tr > th{background-color: #0099ff; color:#fff;}
+.modal .modal-dialog .modal-content{padding:0px;}
+.modal .modal-dialog .modal-content .modal-header{padding:15px 0px;}
+
+.pad_box{padding:0px 5px !important; height: 20px; margin: 10px 0;}
+.top_space{padding:15px 0px !important;}
+.trans_name{width:100%; background:none; padding:15px 0px; border: 1px solid;}
+.trans_name h2{margin: 10px 0px; font-size: 20px; color: #333; font-weight:100;}
+.trans_name h2 span{font-size:11px;}
+.trans_name h3{margin: 10px 0px; font-size: 18px; color: #333; font-weight:100;}
+.pay_box{float: right; left: 0px; bottom: 0px; text-align:right;}
+.trans_name h3 span{padding: 5px 20px; border: 1px solid #666; font-size: 14px; margin-left: 12px;}
+.trans_name button{font-size: 18px; text-align: center; background: #59ca35; color: #fff; border: none; padding: 8px 15px;}
+.varified_area{width:100%; background:none; padding:15px 0px; float:left;}
+.varified_area ul{margin:0px auto; padding:0px; list-style:none;}
+.varified_area li{float:left; padding-right: 15px;}
+.varified_area li span{background: #59ca35; padding: 5px 15px; color: #fff;}
+.varified_area li i{background: #09f; color: #fff; padding: 5px; border-radius: 50px; font-size: 14px; width: 25px; height: 25px;}
+.skills{width:100%; float:left; background:none; padding: 10px 0;}
+.skills h2{float: left; margin: 0; margin-right: 20px; font-size:17px;}
+.btn-primary{margin:15px 0px;}
+.sec_div{
+	 height: 250px;
+	overflow-y: auto;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.fa-star {
+    color: #ffdd2f;
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+}
+
+table{text-align:center;}
+table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td{text-align:center;}
+
+.stars b{
+	position: relative;
+    top: 3px;
+    margin-right: 10px;
+	cursor:pointer;
+}
+
+.rating_box{
+	width:100%;
+	padding:20px;
+	background:none;
+}
+
+.stars {
+    padding-left: 0;
+    list-style: none;
+    margin:0px;
+}
+
+.stars input{
+	width: 32%;
+    margin: 0;
+    display: -webkit-inline-box;
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+    color: #333;
+}
+
+.rating_box input{
+	color:#333;
+}
+
+.rating_box h2{
+	font-size:20px;
+	text-align:left;
+	margin:10px 0px;
+	color:#333;
+}
+.media-left{
+	float:right;
+	padding-right: 45px;
+}
+.img_tt{
+	float: left;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.img_tt img{
+	max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    margin: 0px auto;
+    display: block;
+	padding-top: 5px;
+}
+
+.img-profile{
+	width: 143px;
+    height: 143px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+	float:right;
+
+}
+
+.img-profile img{
+	max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    margin: 0px auto;
+    display: block;
+}
+
+/* -------------------------- Invite Section ---------------------- */
+
+.invite_div{
+	width: 100%;
+    padding: 20px;
+    height: 225px;
+    background: none;
+    overflow-y: auto;
+}
+
+.heading_div{
+	width:100%;
+	padding:10px 20px;
+	background:none;
+}
+
+.heading_div h2{
+	font-size:20px;
+	text-align:left;
+	margin:10px 0px;
+	color:#333;
+}
+
+.listing-content h5{
+	float: right;
+    font-size: 15px;
+    font-weight: 100;
+    border: 1px solid #777;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: #777;
+	margin-left:75px;
+}
+
+/* ================================= History Btn ====================================== */
+
+.rate_btn{margin-left:auto; display:block;}
+
+.banr-head input[type="email"], input[type="text"], input[type="password"]{color:#333;}
+
+.call_btn_align{text-align:right; padding-right:50px;}
+
+
+.right-top-bnr button{margin-top: 50px; margin-left: auto; display: block; outline:none; background: none; border: none;}
+.right-top-bnr button:hover, .right-top-bnr button:focus{background:none; outline:none; border:none;}
+
+
+/* ========================================= Modal Box Css =================================== */
+
+.modal-dialog{width:500px;}
+.modal{z-index:99999;}
+.modal-content{padding:0px; position:relative; border-radius:0px;}
+.modal-header .close {margin-top: 0px; position: absolute; right: 30px; top: 20px; font-size: 24px; background: none; border: none; outline:none;}
+
+.modal-title{font-size: 20px; font-weight: 100; text-align:center; color:#fff;}
+.modal-body h5 {color: #737373; font-weight: normal; font-size: 14px; background: none; border: 1px solid #737373 !important; width: auto; float: right; padding: 8px 20px; margin: 0px;}
+
+.modal-body button {font-size: 17px; text-align: center; background: #0099ff; color: #fff; border: none; padding: 5px 15px; margin: 0px auto; margin-top: 5px; display: block;}
+.modal-header {padding: 15px; border-bottom: 1px solid #e5e5e5; color: #fff; background: #0099ff; min-height: 16.42857143px;}
+.modal-footer button{margin:15px auto; display:block; width:40%; margin-top:0px;}
+.modal-footer{border:none; padding-top:0px;}
+
+/* ========================================= Modal Box Css =================================== */
+
+.profile-company-content {
+    position: relative;
+   /* padding: 60px 0 70px 0;*/
+    background: #fff;
+}
+
+.profile-company-content.main-user .tab-content #profile {
+    background: none;
+}
+.profile-company-content .tab-content #profile {
+    padding: 0;
+    width: 100%;
+}
+.profile-company-content .tab-content .tab-pane.active {
+    display: inline-block;
+    width: 100%;
+}
+
+.profile-main {
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px rgba(206, 206, 206, 1);
+    background: #fff;
+}
+
+.compny-profile .profile-company-content .tab-content h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0px;
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 30px 30px 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.profile-company-content .tab-content h3 {
+    padding-top: 50px;
+    margin: 0 0 30px 0;
+    font-size: 23px;
+}
+
+.compny-profile .profile-in {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.profile-company-content .sidebar {
+    position: relative;
+    padding: 21px;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(206, 206, 206, 1);
+}
+.profile-company-content .sidebar {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.compny-profile .main-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.job-skills ul {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.job-skills li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.job-skills h6 {
+    text-transform: none;
+    font-weight: normal;
+    margin: 0px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.job-skills li h6 i {
+    color: #fff;
+    margin-right: 5px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    background: #31a8ec;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.job-skills .progress {
+    height: 20px;
+    box-shadow: none;
+    background: #e5e5e5;
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.job-skills .progress-bar {
+    background: #31a8ec;
+    box-shadow: none;
+    border-radius: 20px;
+}
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #337ab7;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.profile-company-content .sidebar {
+    position: relative;
+    padding: 21px;
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(206, 206, 206, 1);
+}
+.profile-company-content .sidebar {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.compny-profile .main-title {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0px;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+
+.profile-company-content .sidebar .sidebar-information {
+    position: relative;
+}
+
+.profile-company-content .sidebar-information ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-company-content .sidebar .sidebar-information .single-category {
+    position: relative;
+}
+
+.profile-company-content .sidebar-information ul li {
+    padding: 0px;
+    list-style: none;
+}
+
+.profile-company-content .sidebar .sidebar-information .single-category .title {
+    margin-top: 0px;
+}
+
+.profile-company-content .sidebar .sidebar-information .single-category .title {
+    margin: 0px 0 5px 0;
+    font-size: 14px;
+}
+.profile-company-content .sidebar .sidebar-information .single-category .title {
+    font-size: 13px;
+    margin: 0px;
+    padding-right: 0px;
+    font-weight: normal;
+    line-height: 26px;
+}
+
+
+
+
+.profile-company-content .tab-content .tab-pane.active {
+    display: inline-block;
+    width: 100%;
+}
+
+.profile-company-content .tab-content .header-listing {
+    padding: 13px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(206, 206, 206, 1);
+	margin-top: 30px;
+}
+
+.profile-company-content .tab-content .header-listing h6 {
+    margin: 10px 5px 5px 0;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    text-transform: uppercase;
+}
+
+.profile-company-content .tab-content .header-listing .custom-select-box {
+    width: 220px;
+    display: inline-block;
+}
+.profile-company-content .tab-content .header-listing .custom-select-box {
+    width: 220px;
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
+}
+
+.profile-company-content .tab-content .header-listing .listing-views {
+    padding: 0;
+    margin: 4px 0 0 0;
+    float: right;
+    list-style: none;
+    display: inline-block;
+}
+
+.profile-company-content .tab-content .header-listing .listing-views li.active {
+    background: #0099ff;
+    border: 1px solid #0099ff;
+}
+.profile-company-content .tab-content .header-listing .listing-views li {
+    margin-left: 2px;
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+}
+
+.profile-company-content .tab-content .header-listing .listing-views li .fa {
+    color: #e6e6e6;
+}
+
+.profile-company-content .tab-content #jobs .listing {
+    padding-bottom: 0;
+}
+
+.profile-company-content .tab-content .listing-ver-3 {
+    margin-bottom: 30px;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-heading {
+    position: relative;
+    padding: 17px 24px;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-heading h5 {
+    margin: 0;
+    display: inline-block;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-heading .bookmark {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-heading .bookmark li:last-child {
+    padding-right: 0;
+}
+.listing.listing-1 .listing-ver-3 .listing-heading .bookmark li {
+    margin: 0;
+    padding: 0 4px;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-inner {
+    position: relative;
+    background: #fff;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+
+.listing.listing-1 .listing-ver-3 .listing-inner .listing-content {
+    position: relative;
+    padding: 28px;
+    display: inline-block;
+    text-align: left;
+    background: #fff; 
+	width: 100%;
+}
+
+.profile-company-content .tab-content .listing-ver-3 .listing-inner .listing-content .location {
+    display: inline-block;
+}
+
+.profile-company-content .tab-content .listing-ver-3 .listing-inner .listing-content .type-work.full-time {
+    color: #cc66cc; display:block;
+}
+
+.profile-company-content .tab-content .listing-ver-3 .listing-inner .listing-content .location {
+    display: inline-block;
+}
+
+.listing.listing-1 .listing-ver-3 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+
+.user-profile-bnr{height:auto; padding-bottom: 20px;}
+.nav-tabs>li{border: 1px solid #f4f4f4; background: #f0f0f0;}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], input[type="file"] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cecece;
+    transition: all 0.3s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+
+.nav.nav-tabs > li.active > a {
+    background-color: #0b4d81;
+    border: 0;
+    color: #fff !important;
+}
+
+.nav.nav-tabs{
+	margin-bottom:25px;
+}
+
+.right-top-bnr{
+	float: left;
+    margin:0px 5px;
+}
+
+.certificate_box{
+	width:100%; padding:0px 15px; background:none; 
+}
+
+.certificate_box h4{
+	float: left;
+    width: 64%;
+}
+
+.certificate_box h3, .certificate_box h5, .certificate_box button{
+	display: inline-block;
+    padding: 7px 30px !important;
+    margin-left: 150px;
+}
+.certificate_box h5{
+	 margin-left: 0px !important;
+}
+.certificate_box button{
+	padding: 7px 20px;
+    background: #0b4d81;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+   /* margin: 50px 0px;*/
+	display:block;
+	float:right;
+}
+
+.certificate_box h2{
+	text-align:left;
+	font-size:25px;
+	font-weight:100;
+	color:#333;
+	margin:15px 0px;
+	margin-top:0px;
+}
+
+.certified_inside{
+	width:100%;
+	padding:15px 0px;
+	background:none;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.certified_inside h5{
+	text-align:left;
+	font-size:18px;
+	font-weight:100;
+	color:#333;
+	margin:15px 0px;
+}
+
+.certified_inside button{
+	padding: 7px 20px;
+    background: #0b4d81;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin: 5px 0px;
+    float: left;
+}
+
+/* ================================ Add new css ================================== */
+
+.pic_outer{width: 60px; height: 60px; display: table-cell; margin: 0px auto; vertical-align: middle;}
+.pic_outer img{max-width: 100%; max-height: 100%; width: auto; display: block; margin: 0px auto;}
+
+.listing.listing-1 .listing-ver-3 .listing-heading .bookmark li a b{font-weight: 100; margin-right: 5px;}
+.profile-company-content .tab-content .listing-ver-3{margin-bottom:0px;}
+
+
+@media screen and (min-width:300px) and (max-width:480px){
+
+.section{width: 100%;}
+.sec_right{width:100%; float: none; text-align: center; display: inline-block;}
+.invited_translator h2{display: block; text-align: center;}
+.invited_translator{float:left; margin-top: 15px;}
+.detail_left{padding:5px;}
+
+.heading_div{padding:5px;}
+.table {margin-bottom: 10px; overflow-y: auto; width: 100%; display: block;}
+.heading_div h2{font-size:18px;}
+.pay_box{float:none; left:0; bottom:0;}
+.trans_name h3{text-align:center;}
+.trans_name h3 span{margin-left:0px;}
+
+.detail_left h2{font-size:15px;}
+.detail_left h5{line-height:20px;}
+.skills h2{margin-right:0px;}
+	
+.less_pad{padding:0px;}
+.invited_translator img{margin:0px auto; width:30px; height:30px;}
+.invited_translator p{text-align:center; margin:15px auto;}
+.invited_translator h5{float:none; margin:0px auto;}
+
+.modal-dialog{width:90%; margin:0px auto;}
+.trans_name h3{font-size:13px;}
+.trans_name h3 span{font-size:10px; padding: 5px 10px;}
+	
+.nav-tabs>li{margin-bottom: 2px; width: 100%;}
+.compny-profile .profile-in{padding: 10px;}
+.compny-profile .profile-company-content .tab-content h3{margin-bottom:0px;}
+
+.pull-left{margin-bottom: 25px;}
+.certificate_box h4{width:100%; font-size:14px;}
+.certificate_box h2{font-size:18px;}
+
+.certified_inside h5{font-size:15px; margin:5px 0px; display: block; word-wrap: break-word;}
+.certificate_box h3, .certificate_box h5, .certificate_box button{padding:7px 10px !important;}
+.certificate_box{overflow:auto;}
+.certified_inside button{font-size:12px;}
+.compny-profile .profile-company-content .tab-content h3 b{margin-left:0px !important;}
+.compny-profile .profile-company-content .tab-content h3{border: 1px solid #f1f1f1; font-size:13px;}
+
+.sec_right h5{float: none; margin: 0px auto; width: 100px; display: block; padding: 7px 0; font-size:14px; margin-top: 20px;}
+
+.bottom_border{border-bottom: 1px solid #cecece; padding: 10px 0px;}
+.pad_box{height:auto;}
+.listing.listing-1 .listing-ver-3 .listing-inner .listing-content{padding:10px;}
+.profile-company-content .tab-content .listing-ver-3{margin-bottom:0px;}
+.listing.listing-1 .listing-ver-3 .listing-heading{padding:10px 24px;}
+.listing-content br{display:none;}
+.listing-content h6{margin:0px;}
+.listing-content h5{float:none; text-align:center; margin-left:0px; margin-top:0px;}
+.stars{margin:10px 0px;}
+
+.pic_outer{width: 50px; height: 50px;}
+.modal{padding-right:0px !important; padding-top:25px;}
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:767px){
+
+.certified_inside h5{font-size:15px; margin:5px 0px; display: block; word-wrap: break-word;}
+.certificate_box h3, .certificate_box h5, .certificate_box button{padding:7px 10px !important;}
+.certificate_box{overflow:auto;}
+.certified_inside button{font-size:12px;}
+.compny-profile .profile-company-content .tab-content h3 b{margin-left:0px !important;}
+.compny-profile .profile-company-content .tab-content h3{border: 1px solid #f1f1f1; font-size:13px;}
+
+.certificate_box h4 b{font-weight:100;}
+.certificate_box h2{font-size:22px;}
+
+.invited_translator{float:left; margin-top: 25px;}
+.pay_box {float: none; left: 0; bottom: 0;}
+.sec_right h5{font-size: 14px; padding: 10px 20px;}
+
+.step1{width:15%; float:left;}
+.step2{width:60%; float:left;}
+.step3{width:25%; float:left;}
+.step1 img, .step2 img, .step3 img {width: 40px; display: block; height: 40px; margin: 0px auto;}
+
+.modal-dialog{width:90%; margin:30px auto;}
+.fade.in{padding-right:0px !important;}
+
+.bottom_border{margin: 15px 0;}
+.pic_outer {width: 50px; height: 50px;}
+
+.listing-content br{display:none;}
+.listing-content h6{margin:0px;}
+.listing-content h5{float:none; text-align:center; margin:15px auto; margin-top:0px; display: block; width:200px;}
+.stars{margin:10px 0px;}
+
+.pic_outer{width: 50px; height: 50px;}
+.modal{padding-right:0px !important; padding-top:25px;}
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	
+.certified_inside h5{font-size:15px; margin:5px 0px; display: block; word-wrap: break-word;}
+.certificate_box h3, .certificate_box h5, .certificate_box button{padding:7px 10px !important;}
+.certificate_box{overflow:auto;}
+.certified_inside button{font-size:12px;}
+.compny-profile .profile-company-content .tab-content h3 b{margin-left:0px !important;}
+.compny-profile .profile-company-content .tab-content h3{border: 1px solid #f1f1f1; font-size:13px;}
+
+.certificate_box h4 b{font-weight:100;}
+.certificate_box h2{font-size:22px;}
+
+.pay_box {float: left; left: 0; bottom: 0;}
+.sec_right h5{font-size: 14px; padding: 10px 20px;}
+
+.bottom_border{margin: 15px 0;}
+.step1 img, .step2 img, .step3 img {width: 40px; display: block; height: 40px; margin: 0px auto;}
+.invited_translator{display: inline-block; margin-top: 20px;}
+	
+.img_tt{width:auto;}
+	
+}
+
+@media screen and (min-width:992px) and (max-width:1250px){
+	
+.certified_inside h5{font-size:15px; margin:5px 0px; display: block; word-wrap: break-word;}
+.certificate_box h3, .certificate_box h5, .certificate_box button{padding:7px 10px !important;}
+.certificate_box{overflow:auto;}
+.certified_inside button{font-size:12px;}
+.compny-profile .profile-company-content .tab-content h3 b{margin-left:0px !important;}
+.compny-profile .profile-company-content .tab-content h3{border: 1px solid #f1f1f1; font-size:13px;}
+
+.certificate_box h4 b{font-weight:100;}
+.certificate_box h2{font-size:22px;}
+
+.img_tt{width:auto;}
+.invited_translator p{font-size:12px;}
+.invited_translator h5{width: 48px; font-size:10px;}
+	
+}

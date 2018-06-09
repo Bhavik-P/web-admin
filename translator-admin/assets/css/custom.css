@@ -1,0 +1,165 @@
+.position-center-center h3{margin: 8px 0px; font-size: 20px; color: #333; font-weight:100;}
+.position-center-center p{margin: 8px 0px; font-size: 14px; color: #333;}
+.section{width: 60%; float: left;}
+
+.list-inline>li{padding:8px 10px;}
+.trans_name img{width:100%;}
+
+.sec_right{width: 40%; float: right; text-align: right;}
+.sec_right h5{color: #333; margin-top: 30px; font-weight: normal; font-size: 18px; background: none; border: 1px solid #333 !important; width: auto; float: right; padding: 5px 20px;}
+.project_detail{width:100%; background:none; padding:15px 0px;}
+.detail_left{width:100%; background:none; border:1px solid #737373; padding: 15px; float:left;}
+.detail_left h2{margin: 8px 0px; font-size: 20px; color: #333; font-weight:100; margin-bottom:0px;}
+.detail_left h5{font-size: 13px; font-weight: 100; margin: 0; color: #000;}
+.detail_left p{margin: 8px 0px; font-size: 14px; color: #333;}
+.detail_left h4{margin: 8px 0px; font-size: 17px; color: #333; font-weight:100;}
+.detail_left ul{margin:0px auto; padding:0px; list-style:none;}
+.detail_left li span{font-size:12px;}
+.invited_translator{width:100%; background:none; border:1px solid #737373; padding:0px;}
+.invited_translator section{}
+.invited_translator h2{margin: 0px 0px; padding: 10px 10px; font-size: 20px; color: #333; font-weight: 100; background: #eee; margin-bottom: 10px;}
+.invited_translator img{width:100%; display:block;}
+.invited_translator p{margin: 0px 0px; font-size: 15px; color: #333; font-weight:100;}
+.invited_translator h5{color: #737373; font-weight: normal; font-size: 11px; background: none; border: 1px solid #737373 !important; width: auto; float: right; padding: 5px 20px; margin:0px;}
+
+.invited_translator ul{margin:0px auto; padding:15px 0px; list-style:none; text-align:center;}
+.invited_translator li{float:none; display:inline-block;}
+.invited_translator li button{font-size: 12px; text-align: center; background: #0099ff; color: #fff; border: none; padding: 5px 15px;}
+
+.pad_box{padding:0px 5px !important;}
+.top_space{padding:15px 0px !important;}
+.trans_name{width:100%; background:none; padding:15px 0px; border: 1px solid;}
+.trans_name h2{margin: 10px 0px; font-size: 20px; color: #333; font-weight:100;}
+.trans_name h2 span{font-size:11px;}
+.trans_name h3{margin: 10px 0px; font-size: 18px; color: #333; font-weight:100;}
+.trans_name h3 span{padding: 5px 20px; border: 1px solid #666; font-size: 14px; margin-left: 12px;}
+.trans_name button{font-size: 18px; text-align: center; background: #59ca35; color: #fff; border: none; padding: 8px 15px;}
+.varified_area{width:100%; background:none; padding:15px 0px; float:left;}
+.varified_area ul{margin:0px auto; padding:0px; list-style:none;}
+.varified_area li{float:left; padding-right: 15px;}
+.varified_area li span{background: #59ca35; padding: 5px 15px; color: #fff;}
+.varified_area li i{background: #09f; color: #fff; padding: 5px; border-radius: 50px; font-size: 14px; width: 25px; height: 25px;}
+.skills{width:100%; float:left; background:none; padding: 10px 0;}
+.skills h2{float: left; margin: 0; margin-right: 20px; font-size:17px;}
+.btn-primary{margin:15px 0px;}
+.sec_div{
+	 height: 250px;
+	overflow-y: auto;
+	width: 100%;
+	padding: 0 20px;
+}
+
+.fa-star {
+    color: #ffdd2f;
+    font-size: 25px;
+    position: relative;
+    top: -5px;
+}
+
+table{text-align:center;}
+table > thead > tr > th, table > tbody > tr > th, table > tfoot > tr > th, table > thead > tr > td, table > tbody > tr > td, table > tfoot > tr > td{text-align:center;}
+
+.stars b{
+	position: relative;
+    top: -8px;
+    margin-right: 10px;
+	cursor:pointer;
+}
+
+.rating_box{
+	width:100%;
+	padding:20px;
+	background:none;
+}
+
+.stars {
+    padding-left: 0;
+    list-style: none;
+    margin:0px;
+}
+
+.stars input{
+	width: 32%;
+    margin: 0;
+    display: -webkit-inline-box;
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+    color: #333;
+}
+
+.rating_box input{
+	color:#333;
+}
+
+.rating_box h2{
+	font-size:20px;
+	text-align:left;
+	margin:10px 0px;
+	color:#333;
+}
+
+
+/* -------------------------- Invite Section ---------------------- */
+
+.invite_div{
+	width: 100%;
+    padding: 20px;
+    height: 225px;
+    background: none;
+    overflow-y: auto;
+}
+
+.heading_div{
+	width:100%;
+	padding:10px 20px;
+	background:none;
+}
+
+.heading_div h2{
+	font-size:20px;
+	text-align:left;
+	margin:10px 0px;
+	color:#333;
+}
+
+.listing-content h5{
+	float: left;
+    font-size: 15px;
+    font-weight: 100;
+    border: 1px solid #777;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: #777;
+	margin-left:75px;
+}
+
+/* ================================= History Btn ====================================== */
+
+.rate_btn{margin-left:auto; display:block;}
+
+.banr-head input[type="email"], input[type="text"], input[type="password"]{color:#333;}
+
+.call_btn_align{text-align:right; padding-right:50px;}
+
+
+.right-top-bnr button{margin-top: 50px; margin-left: auto; display: block; outline:none; background: none; border: none;}
+.right-top-bnr button:hover, .right-top-bnr button:focus{background:none; outline:none; border:none;}
+
+
+/* ========================================= Modal Box Css =================================== */
+
+.modal-dialog{width:500px;}
+.modal{z-index:99999;}
+.modal-content{padding:0px; position:relative; border-radius:0px;}
+.modal-header .close {margin-top: 0px; position: absolute; right: 30px; top: 20px; font-size: 24px; background: none; border: none; outline:none;}
+
+.modal-title{font-size: 20px; font-weight: 100; text-align:center; color:#fff;}
+.modal-body h5 {color: #737373; font-weight: normal; font-size: 14px; background: none; border: 1px solid #737373 !important; width: auto; float: right; padding: 8px 20px; margin: 0px;}
+
+.modal-body button {font-size: 17px; text-align: center; background: #0099ff; color: #fff; border: none; padding: 5px 15px; margin: 0px auto; margin-top: 5px; display: block;}
+.modal-header {padding: 15px; border-bottom: 1px solid #e5e5e5; color: #fff; background: #0099ff; min-height: 16.42857143px;}
+.modal-footer button{margin:15px auto; display:block; width:40%; margin-top:0px;}
+.modal-footer{border:none; padding-top:0px;}
+
+/* ========================================= Modal Box Css =================================== */

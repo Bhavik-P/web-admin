@@ -1,0 +1,495 @@
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.ttf')  format('truetype');
+}
+
+body{background:#f5f5f5 !important; margin:0px auto; padding:0px; font-family: 'OpenSans-Light';}
+
+.header{background:#2a5b77; padding:10px 0px; width:100%; position: fixed; left: 0; right: 0; z-index: 9999; top: 0;}
+
+.nav-tab{background:none; width:auto; float:left; padding: 20px 15px;}
+.dropdown-menu{left:auto;}
+.tab_icon{font-size: 25px; color: #fff;}
+
+.logo-head{background:none; width:30%; float:left;}
+.logo-head img{width:40%; float:left;}
+
+.profile-ava img{width:40px; height:40px; border-radius: 50px; margin-right: 5px;}
+.pull-right{margin-top:20px;}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{background:transparent;}
+
+.nav>li>a{padding: 0px 15px; color: #fff;}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{background-color:transparent !important;}
+.nav>li>a:focus, .nav>li>a:hover{background-color:transparent !important;}
+.dropdown-menu{top: 55px; z-index: 999999; right: 0; padding: 0;}
+.dropdown-menu>li>a{padding: 5px 20px; border-bottom: 1px solid #e8e8e8;}
+
+.sidebar_dropmenu{width:100%; position: relative; top:100%; color: #fff; background:none;}
+.sidebar_dropmenu li a{text-indent:35px;}
+.side_icon{font-size:20px; margin-right:10px;}
+.side_align{float:right; margin-right:10px; margin-top:17px;}
+.dropdown-menu>li>a{border:none; color: #2a5b77 !important; font-weight: bold;} 
+.dropdown-menu{box-shadow:none; border-radius:0px; border: none;}
+
+.page_header{width:100%; background:transparent; padding:10px; margin:10px 0px; margin-top:5px;}
+.page_header h1{text-align:left; font-size:23px; margin:0px; color: #afacac; font-weight:100;}
+
+.bradcumb{width:100%; background:#fff; padding:8px 10px; margin:15px 0px; float:left;}
+.bradcumb p{text-align:left; font-size:14px; margin:0px; color: #afacac; font-weight:100;}
+.bradcumb ul{margin:0px auto; padding:0px; list-style:none;}
+.bradcumb li{float:left; text-align:left; font-size:14px; margin:0px; color: #2d2c2c; font-weight:100; padding: 0px 5px; letter-spacing: 1px;}
+.bradcumb li a{text-decoration:none; color:#2a5b77; font-weight:bold;}
+
+.main_block{width:100%; background:#fff; padding: 20px 10px; margin:15px 0px; float:left;}
+.block_left{width:100%; background:#ccc; height:250px; padding:10px; color:#fff; text-align:center; display: table;}
+.block_left:hover{box-shadow: 0px 0px 5px #848484; cursor:pointer;}
+.block_left span{color: #fff; text-align: center; font-weight: bold; font-size: 25px; display: table-cell; vertical-align: middle;}
+.main_block a{color: #fff; text-decoration:none;}
+.main_block a:hover{color:#2a5b77;}
+td a{color:#333 !important;}
+
+/* Pricing Page Css */
+.pricing_table{width:100%; overflow-x: auto;}
+.table{margin: 10px 0px; margin-bottom:0px; border: 1px solid #ddd; text-align: center;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{font-size:11px;}
+
+/*.col_pad{padding:3px;}
+.col_pad:first-child{padding-left:0px;}
+.col_pad:last-child{padding-right:0px;}*/
+
+.contact_form{width:100%;}
+.form-control{padding:8px 15px;}
+.contact-block p{font-size:18px;}
+
+.price_div{width:100%; background:#fff; padding: 20px 0; float:left; padding-bottom:0px;}
+
+.creat_hunt_form{width:100%; padding: 15px; padding-top: 30px;}
+.hunt_form-inside{width:70%; background:none; margin:0px auto;}
+
+.btn-default {color: #fff; background-color:#2a5b77; border-color:#2a5b77; font-weight: bold;}
+.btn-default:hover {color: #fff; background-color: #2a5b77; border-color: #2a5b77;}
+.hunt_login{padding: 8px 30px; border-radius: 5px; font-size: 16px;}
+
+/* Pricing Page Css */
+
+.hunt_list{width:100%; background:#fff; padding: 15px; float:left;}
+.hunt_list-card{width:85%; background:#f5f5f5; padding: 30px 60px; margin: 10px auto; box-shadow: 0px 0px 5px #848484; cursor:pointer; margin-bottom:30px;}
+.hunt_list-card input{padding:15px;}
+.list-button{padding:12px; width: 100%; font-size: 18px;}
+.card-list{width:100%; padding:10px; background:#fff; border:1px solid #ddd; margin:20px 0px;}
+.card-list img{width:100%; display:block;}
+.card-list h1{text-align:left; font-size:30px; margin:10px 0px; color:#333; font-weight:bold; margin-bottom:3px;}
+.card-list h2{text-align:left; font-size:18px; margin:10px 0px; color:#555; font-weight:bold; margin-top:3px;}
+.card-list p{text-align:left; font-size:14px; margin:10px 0px; color:#555; font-weight:bold;}
+.card-list span{font-size:12px;}
+
+.button_margin{margin:5px 0px; padding: 5px;}
+.btn-default.focus, .btn-default:focus{background-color: #2a5b77; color:#fff;}
+.btn:hover{color:#fff;}
+
+.view_page{width:100%; padding:10px; background:#fff;}
+.view_page img{width:100%; display:block;}
+.view_page h1{text-align:left; font-size:25px; color:#333; margin:10px 0px; line-height: 20px; font-weight:bold;}
+.heading{text-align: center !important; font-size: 25px; margin: 20px auto !important; color: #666 !important; font-weight: 100 !important; margin-bottom: 25px !important;}
+.view_page p{text-align:left; font-size:15px; color:#333; margin:10px 0px; font-weight:100;}
+.view_page span{font-size:14px;}
+.view_page  ul{margin:0px auto; padding:0px; list-style:none;}
+.view_page li{font-size:13px; font-weight:100; float:left; padding:0px 8px;}
+.view_page li:first-child{padding-left:0px;}
+.circle_block{position: relative; top: 10px;}
+.circle_block p{text-align:center; font-size:12px; font-weight:bold; margin:10px 0px;}
+.circle_block a{text-decoration:none; color:#333;}
+.view_page_icon{font-size: 50px; background: #464646; color: #fff; padding: 15px; border-radius: 50px; width: 80px; height: 80px; text-align: center;}
+.view_msg{background: #1f9fdc;}
+.view_mrk{background: #ce2f3e;}
+.view_tkmtr{background: #424040;}
+.view_bell{background: #369c8e;}
+
+.view_tab-section{width:100%; padding:10px; background:#fff;}
+.view-tabs{width:100%; background:#fff;}
+.view-tabs li {padding:0px; cursor:pointer;}
+.view-tabs li a{padding:10px 20px; color: #000; border: 1px solid #ddd;}
+
+.tab-content{padding:10px; border: 1px solid #ddd; margin-top: 10px;}
+.tab-content h1{text-align:center; font-size:25px; margin:20px auto; color:#666; font-weight:100; margin-bottom:25px;}
+.hunt_tab_inside{width:100%; background:none; padding:10px;}
+
+.stream_list{width:100%; padding:10px; background:#fff; float:left;}
+
+/* ====================================== Add Gallery Section Css ================================= */
+.stream_section{width:100%; background:none; border-radius: 5px; margin-bottom: 15px; position:relative; overflow:hidden;}
+.stream_section h2{text-align:center; font-size:18px; margin:10px 0px; color:#333; font-weight:bold;}
+.stream_section a{text-decoration:none;}
+.stream_section ul{margin:0px auto; padding:0px; list-style:none; text-align:center;}
+.stream_section li{float: none; border: 1px solid #e2e2e2; display: inline-block; width: 22%; margin: 14px; border-radius: 10px;}
+.stream_section li:hover .hidden_box{display:block; top:0; cursor:pointer;}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{margin:0px auto; padding: 10px;}
+/* ====================================== Add Gallery Section Css ================================= */
+
+.stream_inside{width:100%; background:none; border: 1px solid #ccc9c9; border-radius: 5px; margin-bottom: 15px; position:relative; overflow:hidden;}
+.stream_inside img{width:80%; display:block; margin:0px auto; cursor:pointer;}
+.stream_inside h2{text-align:center; font-size:18px; margin:10px 0px; color:#333; font-weight:bold;}
+.stream_inside p{text-align:center; font-size:13px; margin:10px 0px; margin-top:0px;}
+.stream_icon{font-size: 20px; color:#2a5b77; text-align: center; display: block;}
+.stream_inside:hover .hidden_box{display:block; top:0; cursor:pointer;}
+.new_class{width:20%; display: inline-table; text-align: center; margin: 0px auto;}
+.margin_left{margin-left:18%;}
+
+.hidden_box{width:100%; background: rgba(0, 0, 0, 0.75); text-align:center; padding:10px; position:absolute; top:-112%; right:0; height: 100%; transition: top 0.3s;}
+.hidden_iconbar{width:100%; height: 100%; display: table;}
+.hidden_drop{vertical-align: middle; display: table-cell;}
+.hidden_drop p{text-align:center; font-size:12px; margin:5px 0px; color:#fff; font-weight:bold;}
+
+a:focus, a:hover{text-decoration:none;}
+
+/*============== Modal Box Css=======================*/
+
+.modal-dialog {margin: 100px auto; margin-bottom:0px;}
+label{text-align:left;}
+.modal-header{padding: 5px 20px; background: #2a5b77;}
+.modal-header h2{margin: 10px; font-size: 25px; font-weight: bold; text-align: center; color:#fff;}
+button.close{margin-top: 0px !important; font-size: 25px; color: #666;}
+.modal{z-index:99999;}
+
+
+/*============== Modal Box Css=======================*/
+
+.leaderboard{width:100%; padding:10px; background:#fff; float:left; overflow: hidden; padding-bottom: 50px;}
+.leaderboard a{text-decoration:none;}
+.div_svenger{width:100%; background:#bbf988; padding:15px; margin:20px 0px;}
+.div_svenger h2{text-align:center; font-size:16px; font-weight:bold; color:#333; margin: 5px 0px; background: #ffffff; padding: 15px;}
+
+.leader_objective{width:100%; background:#bbf988; padding:15px; margin:20px 0px; text-align:center;}
+.leader_objective h2{text-align:center; font-size:23px; font-weight:bold; color:#fff; margin: 15px 0px;}
+.leader_objective h1{text-align:center; font-size:30px; font-weight:100; color:#fff; margin: 15px 0px;}
+.leader_objective h1 a{color:#fff; text-decoration:none;}
+.ready_button{padding: 10px 25px; background: #83cfd0; color: #fff; border: none; font-size: 20px; font-weight: bold; border-radius: 5px;}
+
+.leaderboard_team{width:100%; background:#fff; padding:15px; text-align:center; margin: 15px 0px;}
+.leaderboard_team h1{text-align:center; font-size:30px; font-weight:bold; color:#333; margin:0px; margin-bottom:10px;}
+.leaderboard_team ul{margin:0px auto; padding:0px; list-style:none; text-align:center;}
+.leaderboard_team li{font-size:14px; color:#333; padding:0px 5px; float:none; display:inline-block; font-weight:bold;}
+.leaderboard_team img{width:100%; display:block;}
+.circle_box{width: 200px; height: 200px; margin: 15px auto; background: #bbf988; border: 1px solid #cacaca; border-radius: 50%;}
+
+.leaderboard_stream{width:100%; background:#bbf988; padding:40px 15px; margin:20px 0px; text-align:center; height: 260px; display:table;}
+.leaderboard_stream h1{text-align:center; font-size:30px; font-weight:bold; color:#fff; margin: 15px 0px; display: table-cell; vertical-align: middle;}
+.leaderboard_stream h2{text-align:center; font-size:100px; font-weight:bold; color:#333; margin:0px; font-family: cursive;}
+.leaderboard_stream p{text-align:center; font-size:20px; font-weight:bold; color:#333; margin:0px; text-decoration:underline;}
+
+#go{cursor:pointer;}
+#stop{display:none;}
+
+.stream_user{font-size:60px; color: #afafaf; margin: 20px auto; vertical-align: middle; display: table-header-group;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{font-size:15px;}
+
+.tab_in_map{width:100%; background:none; padding:10px;}
+.form-control{height:auto;}
+.border-div{border-top: 1px solid #dadada; margin-top: 25px !important;}
+
+.table_input{width:100%; background:none; padding:10px;}
+
+.table_pagination{width:100%; padding:10px; background:none; text-align:center;}
+.table_pagination ul{margin:0px auto; padding:0px; list-style:none; text-align:center; display: inline-block;}
+.table_pagination li{float: left; font-size: 14px; color: #666; padding: 5px 12px !important; background: #f9f9f9; color: #fff; margin: 0px 1px; border-radius: 5px; font-weight: bold;}
+.table_pagination li a{text-decoration:none; color:#a5a5a5;}
+.table_pagination li a:active, .table_pagination li a:focus{color:#000;}
+
+.point{width:100%; background:none; text-align: center; margin: 0px auto;}
+.point ul{margin:0px auto; padding:0px; list-style:none; text-align:center;}
+.point li{font-size:14px; color:#333; padding:0px 5px; float:none; display:inline-block; font-weight:bold;}
+
+.point_red{background: #ce2f3e; padding: 7px; font-size: 27px; color: #fff; border-radius: 5px;}
+.point_red:hover{background: #020202; cursor:pointer;}
+.point_green{background: #2a5b77; padding: 7px; font-size: 27px; color: #fff; border-radius: 5px;}
+.point_green:hover{background: #020202; cursor:pointer;}
+.point_blue{background: #1f9fdc; padding: 7px; font-size: 27px; color: #fff; border-radius: 5px;}
+.point_blue:hover{background: #020202; cursor:pointer;}
+
+.page_description{width:100; background:none; padding:10px;}
+.page_description p{text-align:left; font-size:15px; font-weight:bold; margin:15px 0px; color:#666; margin-top:5px;}
+.page_description ul{margin:0px auto; padding:0px; list-style:none;}
+.page_description li{float:none; font-size:14px; font-weight:bold; line-height:30px; text-align:left; color:#666; padding:0px;}
+
+.clue_page{width:100%; padding:10px; background:none; margin: 0px auto;}
+.clue_page p{text-align:left; font-size:15px; font-weight:bold; margin:10px 0px; color:#666;}
+.admin_clue{width:100%; padding:10px; height:185px; overflow-y:auto; background:none; text-align:center;}
+.self_clue{width:70%; padding:10px; background:none; margin: 0px auto;}
+
+.form-group p{text-align:right; font-size:14px; font-weight:bold; margin:5px 0px; color:#333;}
+.form-group a{color:#333; text-decoration:none;}
+.modal-form{width:100%; padding:10px;}
+.my_diolog{width:600px;}
+.field_margin{margin:15px 0px;}
+
+.joint_section{width:60%; background:none; margin:0px auto;}
+.joint_section img{width:100%; display:block;}
+.team_btn{display:block; margin:15px auto;}
+.add_more_block{width:100%; padding:10px; background:none; text-align:right;}
+.add_more-btn{padding: 8px 30px; border-radius: 5px; font-size: 16px; color: #fff; background-color: #2a5b77; border-color: #2a5b77; font-weight: bold;}
+
+.joint_modal{width:100%; padding:10px; background:none; text-align:center;}
+.joint_modal p{text-align:center; font-size:18px; font-weight:100; margin:5px 0px; color:#666; line-height: 30px;}
+.joint_modal h1{text-align:center; font-size:20px; font-weight:bold; margin:20px 0px; color:#666;}
+.joint_modal h2{text-align:center; font-size:16px; font-weight:bold; margin:10px 0px; color:#333;}
+
+.clue_instruction{width:100%; padding:10px; background:none;}
+.clue_instruction h2{text-align:center; font-size:20px; font-weight:100; margin:15px 0px; color:#666;}
+.clue_instruction p{text-align:center; font-size:15px; font-weight:100; margin:5px 0px; color:#666; line-height: 30px;}
+
+.asked_que{width:100%; background:#fff; padding:10px; float:left;}
+.asked_que h2{text-align:center; font-size:18px; font-weight:bold; margin:30px 0px;}
+.asked_que-inside{width:75%; margin:0px auto; text-align: center;}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{text-align:center;}
+
+td{max-width: 150px;}
+
+.clue-object{width:100%; background:#fff; float:left; padding:10px;}
+
+.tr_head{background: #dadada; font-weight: bold;}
+.tr_center{color: #f30000; font-weight: bold;}
+.tr_right{color: #61d800; font-weight: bold;}
+.tr_wrong{color: #afbb00; font-weight: bold;}
+
+
+.gallery_page{width:100%;background:#fff; padding:10px; float: left; margin: 15px 0px;}
+
+.comment_section{width:100%; padding:10px; background:none; position:relative; border-bottom: 1px solid #bfbfbf; display: inline-block; margin: 5px 0px;}
+.comment_section h1 {text-align: left; font-size: 25px; color: #333; margin: 15px 0px; line-height: 20px; font-weight: bold;}
+.comment_section h1 span{float:right;}
+.comment_section ul {margin: 0px auto; padding: 0px; list-style: none; display: inline-block;}
+.comment_section li:first-child {padding-left: 0px;}
+.comment_section li {font-size: 13px; font-weight: 100; float: left; padding: 0px 8px;}
+
+.comment_delete_btn{background: #97e259; font-weight: bold; color: #fff; border: none; padding: 5px 10px; border-radius: 5px; cursor: pointer; font-size: 15px; position: absolute; right: 10px; top: 20px;}
+
+.self_comment{width:100%; background:none; padding:10px;}
+
+.comment_height{height: 250px; overflow-y: auto; top: 5px; position: relative;}
+input[type=date].form-control, input[type=time].form-control, input[type=datetime-local].form-control, input[type=month].form-control{line-height:20px;}
+.select_btn{padding:8px;}
+.transfer_pic{width:100%; background:none; padding:10px;}
+.transfer_pic img{width:100%; display:block;}
+
+/* Add new css on 07-02-20016 */
+
+.order_block-main {width: 100%; background: #fff;}
+.order_block-main h3 {text-align: center; font-size: 30px; font-weight: bold; margin: 20px 0px; color: #333;}
+.order_div-form {width: 70%; margin: 0px auto; padding: 10px; background: none;}
+.order_div {width: 60%; padding: 10px; background: none; margin: 0px auto; border: 1px solid #bfbfbf; margin-bottom: 40px;}
+.order_div h2 {text-align: center; font-size:25px; font-weight:bold; margin: 10px;}
+.order_div ul {margin: 0px auto; padding: 0px; list-style: none; text-align: center;}
+.order_div li {float: none; width: 48%; display: inline-block; font-size: 16px; font-weight: bold; line-height: 30px; color: #666;}
+.order_div li span {color: #65b6ff;}
+.order_form h1 {text-align: center; font-size: 18px; font-weight: bold; margin: 20px 0px;}
+
+.payment_button_section {
+    text-align: center;
+    width: 100%;
+    margin-top: 35px;
+}
+.purchase_btn {
+    padding: 8px 15px;
+    color: #fff;
+    font-weight: bold;
+    background: #2a5b77;
+    border: none;
+    border-radius: 5px;
+}
+.credit_btn {
+    width: 30%;
+}
+
+/* Add new css on 07-02-20016 */
+
+
+@media screen and (min-width:300px) and (max-width:480px){
+
+.logo-head{width: 50%; display: none;}
+.logo-head img{width:100%;}
+
+.block_left{margin: 20px 0px;}
+.main_block{padding:0px 10px;}
+
+.creat_hunt_form{Padding-top:15px;}
+.hunt_form-inside{width:100%;}
+.hunt_login{width:100%; border-radius:0px;}
+
+.circle_block{text-align:center;}
+.circle_block p{font-size:15px;}
+.avenger_width{width:100%; float:left}
+.avenger_width li{float:left !important;}
+.view_page li{float:none; text-align:center; font-size: 14px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background:#bbf988 !important; color:#FFF;}
+
+.hunt_list{padding:0px;}
+.hunt_list-card{padding: 10px 10px; margin: 20px auto; width: 90%;}
+.list-button{margin-top:10px;}
+.card-list{width:90%; margin:20px auto;}
+.card-list img{width:40%; margin:0px auto;}
+.remove_pad{padding:0px !important;}
+
+#map{width: 100% !important; margin-bottom: 20px !important;}
+.tab_in_map{padding:0px;}
+
+#page-content-wrapper{left: 0;}
+#columnchart_plain{position:relative !important;}
+
+/* ============================================ Back-hand side css Started =========================================== */
+
+/* Asked Question Css */
+.asked_que-inside{width:100%;}
+/* Asked Question Css */
+
+/* Hunt Clues Css */
+.view_page img{width:100%;}
+
+.view_page{padding:0px;}
+/* Hunt Clues Css */
+
+/* Hunt Dashboard Css */
+.table_pagination li{float:none; display:inline-block;}
+.table{width: 100%;}
+.table_block{display:block;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{font-size:13px; vertical-align:middle;}
+
+#map{height:200px !important;}
+.modal-open .modal{width:95%; margin:0px auto; padding-right:0px !important;}
+.modal-dialog{margin:0px auto; position: absolute; left: 0; right: 0; top: 20%;}
+/* Hunt Dashboard Css */
+
+/* Join Hunt Css */
+.joint_section{width:100%;}
+.creat_hunt_form{padding:0px;}
+/* Join Hunt Css */
+
+.margin_left {
+    margin-left: 17%;
+}
+
+/* ============================================ Back-hand side css Closed =========================================== */
+
+}
+
+
+
+@media screen and (min-width:481px) and (max-width:768px){
+
+.col-ms-2{width:10%; float:left;}
+.col-ms-3{width:25%; float:left;}
+.col-ms-4{width:40%; float:left;}
+.col-ms-6{width:50%; float:left;}
+
+.nav-tab{padding:15px 15px;}
+.logo-head{width:160px;}
+.logo-head img{width:100%;}
+
+.block_left{margin: 20px auto; height: 160px; width:160px;}
+.block_left span{font-size:21px;}
+
+.hunt_form-inside{width:100%;}
+
+.circle_block{float: left; margin: 15px auto; width: 100%;}
+.avenger_width{width:100%; float:left}
+.avenger_width li{float:left !important;}
+.view_page li{float:none;}
+
+.hunt_list{padding:0px;}
+.hunt_list-card{padding: 10px 10px; margin: 20px auto; width: 90%;}
+.list-button{margin-top:10px;}
+.card-list{width:90%; margin:20px auto;}
+.card-list img{width:150px; margin:0px auto;}
+.remove_pad{padding:0px !important;}
+
+#page-content-wrapper{left: 0;}
+#columnchart_plain{position:relative !important;}
+
+/* ============================================ Back-hand side css Started =========================================== */
+
+/* Asked Question Css */
+.asked_que-inside{width:100%;}
+/* Asked Question Css */
+
+/* Hunt Clues Css */
+.view_page img{width:350px; margin:0px auto;}
+/* Hunt Clues Css */
+
+/* Hunt Dashboard Css */
+.table_pagination li{float:none; display:inline-block;}
+.table{width: 100%;}
+.table_block{display:block;}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{font-size:13px; vertical-align:middle;}
+
+#map{height:200px !important;}
+.modal-open .modal{width:95%; margin:0px auto; padding-right:0px !important;}
+.modal-dialog{margin:0px auto; position: absolute; left: 0; right: 0; top: 20%;}
+/* Hunt Dashboard Css */
+
+/* Join Hunt Css */
+.joint_section{width:100%;}
+.creat_hunt_form{padding:0px;}
+/* Join Hunt Css */
+
+/* ============================================ Back-hand side css Closed =========================================== */
+
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:980px){
+
+.nav-tab{padding:15px 15px;}
+.logo-head img{width:60%;}
+.dropdown-menu{top:57px;}
+
+.block_left{width: 220px; height: 220px;}
+.circle_block{float: left; margin: 15px auto; width: 100%; text-align: center;}
+
+.card-list img{width:150px; margin:0px auto;}
+
+#map{width:100% !important; height:250px !important;}
+
+#page-content-wrapper{left: 0;}
+
+/* ============================================ Back-hand side css Started =========================================== */
+
+.margin_left{margin-left:10%;}
+.new_class{padding:0px 5px;}
+
+/* ============================================ Back-hand side css Closed =========================================== */
+
+}
+
+
+
+@media screen and (min-width:980px) and (max-width:1250px){
+
+.nav-tab{padding:15px 15px;}
+.logo-head img{width:50%;}
+.dropdown-menu{top:57px;}
+.card-list img{width:150px; margin:0px auto;}
+
+}
+
+
+		.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
